@@ -11,4 +11,13 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+    if a%100==a and a%2==1:
+        print("ikki xonali toq son")
+    if a%100==a and a%2==0:
+        print("ikki xonali juft son")
+    if a%1000==a and a%2!=0:
+        print("uch xonali toq son")
+    if a%100==a and a%2==0:
+        print("uch xonali juft son")
+main(57)
+main(124)
